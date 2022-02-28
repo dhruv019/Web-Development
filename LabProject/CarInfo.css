@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid yellow; */
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.textcenter{
+    text-align: center;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+nav{
+    display: flex;
+    height: 140px;
+    /* position: sticky;
+    top: 0px;
+    z-index: 2; */
+}
+/* nav::before{
+    content: "";
+    background-color: rgb(105, 60, 60);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.6;
+} */
+
+#header img{
+    height: 170%;
+    width: 145%;
+    top: -50px;
+    position: relative;
+    left: -50px;
+}
+#heading{
+    /* margin-right: 100px; */
+    width: 50%;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    /* flex-flow: wrap; */
+    justify-content: end;
+    align-items: center;
+}
+#header ul li{
+    display: inline-block;
+    width: max-content;
+    margin: 1.5rem;
+    font-size: 1.3rem;
+}
+#header ul li a{
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#header ul li a:hover{
+    /* font-size: 2rem; */
+    color: white;
+    background-color: rgb(133, 32, 32);
+}
+.cards {
+    display: flex;
+    flex-flow: wrap;
+    background-color: rgb(32, 34, 34);
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.cards__item {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(179, 49, 49); */
+    height: 250px;
+    width: 250px;
+    /* padding: 10px; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(53, 51, 51);
+    /* border: 2px solid rgb(28, 226, 233); */
+}
+#mercedes{
+    background: url(mercedes.png) no-repeat center center/cover;
+    background-size: 400px;
+    background-color: rgb(24, 26, 26);
+    /* background-color: rgb(50, 250, 250); */
+}
+.cards img{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    /* padding: 10px; */
+    height: 80%;
+}
+.subtitle{
+    /* margin: 100px; */
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 220px;
+}
+#audi{
+    /* background: url(audi.png) no-repeat center center/cover; */
+    background: url(audi1.png) no-repeat center center/cover;
+    /* background-size: 280px; */
+    background-size: 240px;
+    background-color: rgb(24, 26, 26);
+}
+#lamborghini{
+    background: url(lamborghini\ 1.png) no-repeat center center/cover;
+    background-size: 180px;
+    background-position-y: 9px;
+    background-color: rgb(24, 26, 26);
+}
+#bmw{
+    background: url(bmw.png) no-repeat center center/cover;
+    background-size: 170px;
+    background-color: rgb(24, 26, 26);
+}
+#porsche{
+    background: url(porsche.png) no-repeat center center/cover;
+    background-size: 250px;
+    background-color: rgb(24, 26, 26);
+}
+#ferrari{
+    background: url(ferrari.png) no-repeat center center/cover;
+    background-size: 300px;
+    background-color: rgb(24, 26, 26);
+}
+#rollsroyce{
+    background: url(rollsroyce.png) no-repeat center center/cover;
+    background-size: 120px;
+    background-position-y: 8px;
+    background-color: rgb(24, 26, 26);
+}
+
+
+#searchby{
+    background-color: rgb(82, 78, 78);
+}
+a{
+    text-decoration: none;
+}
